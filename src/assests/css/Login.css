@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    /* i need to understand */
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+.login {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* text-align: center; */
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* .login-item-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+} */
+.login-left{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* YOGACURES */
+.logo-content h1 {
+
+    /* top: 19.92px; */
+    padding-top: 2rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    background: linear-gradient(93.34deg, #1DAFED -1.38%, #6663FF 128.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+.logo-content p {
+    /* Vivekananda Yoga Anusandhana Samsthana */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+    color: #575757;
+
+
+}
+
+.login-left h2 {
+    /* Welcome Back! */
+    padding-top: 1rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #2C334E;
+}
+
+.login-left .p2 {
+    /* Login to your existant account. */
+    padding-top: .8rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+    color: #92A2A9;
+
+}
+
+form {
+    padding-top: .3rem;
+}
+.text1{
+    position: relative;
+}
+.text1 label p {
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .7em;
+    padding-top: .8rem;
+    margin-bottom: .7rem;
+
+}
+
+.text1 input {
+    display: block;
+    padding: 0 5px;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    height: 40px;
+    padding: 0 27px;
+    box-sizing: border-box;
+    width: 370px;
+    background: #FFFFFF;
+    border: 1px solid #DEEAEF;
+    box-shadow: 0px 17px 16px -12px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+
+}
+.text1 .fa-envelope{
+    position: absolute;
+    top: 54px;
+    left: 12px;
+    font-size: .9em;
+    color: #92A2A9;}
+
+    .text2{
+        position: relative;
+    }
+.text2 label p {
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .7em;
+    padding-top: .8rem;
+    margin-bottom: .7rem;
+
+}
+
+.text2 input {
+    display: block;
+    height: 40px;
+    padding: 0 27px;
+    box-sizing: border-box;
+    width: 370px;
+    background: #FFFFFF;
+    border: 1px solid #DEEAEF;
+    box-shadow: 0px 17px 16px -12px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+}
+.text2 .fa-lock{
+    position: absolute;
+    top: 50px;
+    left: 0.8em;
+    font-size: .9em;
+    color: #92A2A9;
+}
+
+.text2 .fa-eye{
+    position: absolute;
+    right: 106px;
+    top: 3.2rem;
+    font-size: .9em;
+    color: #92A2A9;
+}
+
+/* button */
+button {
+    font-size: .7em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 1rem;
+    width: 370px;
+    /* height: 29px; */
+    padding: 0 5px;
+    border-radius: 6px;
+    height: 40px;
+    /* top: 391.27px; */
+    background: linear-gradient(94.48deg, #57C0F1 3.61%, #5278FA 53.64%);
+    box-shadow: 0px 10px 12px rgba(37, 170, 238, 0.3);
+    border-radius: 30px;
+    border: none;
+
+}
+
+.forgot{
+background: #FBFBFD;
+font-size: .7em;
+    font-family: 'Poppins';
+    text-decoration: underline;
+    margin-left: 8rem;
+    padding-top: 1rem;
+
+
+}
+
+
+.comment{
+    /* Or you can login with */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+color: #92A2A9;
+margin-left: 2rem;
+padding-top: 1rem;
+
+}
+.comment::before{
+   content: '--------';
+   color: #92A2A9;
+   font-size: 1.6em;
+}
+.comment::after{
+    content: '--------';
+    color: #92A2A9; 
+    font-size: 1.6em; 
+}
+
+.text1 input::placeholder,.text2 input::placeholder{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+color: #BFD0D7;   
+/* padding-left: 1.5rem; */
+}
+
+
+.google1{
+    font-size: .7em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 1rem;
+    width: 370px;
+    /* height: 29px; */
+    padding: 0 5px;
+    border-radius: 6px;
+    height: 40px;
+    /* top: 391.27px; */
+    background: #FF4343 ;
+    /* box-shadow: 0px 10px 12px rgba(37, 170, 238, 0.3); */
+    border-radius: 30px;
+    border: none;
+    margin-top: 3rem;
+    color:  #FFFFFF;
+    ;
+
+}
+
+.register{
+    color: #2C334E;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+padding-top: 4rem;
+margin-left: 2.5rem;
+
+}
+.register b{
+    color: #1DAFED;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+}
+
+/* login-right */
+.login-right img{
+    width: 100%;
+}
+ 

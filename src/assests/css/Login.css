@@ -285,7 +285,53 @@ line-height: 21px;
 }
 
 /* login-right */
+.login-right{
+    position: relative;
+    overflow-y: hidden;
+}
 .login-right img{
     width: 100%;
 }
+
+/* carousel */
+.login-right .carousel .slide .legend{
+    top: 40px !important;
+    bottom: 0 !important;
+    height: max-content;
+    opacity: 1 !important;
+    background: none !important;
+    
+   
+}
  
+.login-right .legend h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px; 
+    background: none;
+    color: #2C334E;
+    
+}
+
+    .login-right .legend p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+color: #2C334E;
+
+
+}
+
+.cara .carousel .control-dots .dot{
+    border-radius: 25px;
+    width: 36px;
+    height: 6px;
+}
+
+
+
+

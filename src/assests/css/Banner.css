@@ -1,0 +1,22 @@
+.banner{
+    position: relative;
+}
+ .banner .main-banner-content-wrapper{
+    position: absolute;
+    top: 16rem;
+    left: 8rem;
+ }
+ 
+.banner figure img{ 
+    max-width: 100%;
+    /* background-image: url(../young-adult1.png) */
+}
+.banner .know-more{
+    border-radius: 30px;
+    border: 2px solid rgba(84, 156, 245, 1);
+    width: 77px;
+    height: 30px;
+    background: linear-gradient(94.48deg, #57C0F1 3.61%, #5278FA 53.64%);
+    box-shadow: 0px 10px 12px 0px rgba(37, 170, 238, 0.3);
+
+}

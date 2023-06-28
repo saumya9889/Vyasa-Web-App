@@ -5,6 +5,7 @@
     padding: 0;
     /* i need to understand */
     box-sizing: border-box;
+    
 }
 
 
@@ -19,6 +20,7 @@
     justify-content: center;
     margin: 0 auto;
     width: 100%;
+    overflow-y: hidden;
 }
 
 /* .login-item-wrap{
@@ -51,7 +53,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    text-decoration: transparent;
 
 }
 
@@ -177,7 +179,7 @@ form {
 }
 
 /* button */
-button {
+.login .submit {
     font-size: .7em;
     font-family: 'Poppins';
     font-style: normal;
@@ -287,10 +289,11 @@ line-height: 21px;
 /* login-right */
 .login-right{
     position: relative;
-    overflow-y: hidden;
+    
 }
 .login-right img{
     width: 100%;
+    height: 100vh;
 }
 
 /* carousel */
@@ -330,6 +333,11 @@ color: #2C334E;
     border-radius: 25px;
     width: 36px;
     height: 6px;
+}
+.cara .carousel .control-dots{
+    top: 0;
+    left: 20px;
+    width: max-content;
 }
 
 

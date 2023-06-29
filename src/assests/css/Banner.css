@@ -1,22 +1,68 @@
-.banner{
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.banner {
     position: relative;
 }
- .banner .main-banner-content-wrapper{
+
+.banner .main-banner-content-wrapper {
     position: absolute;
-    top: 16rem;
-    left: 8rem;
- }
- 
-.banner figure img{ 
-    max-width: 100%;
+    top: 13rem;
+    left: 12rem;
+}
+
+.banner .main-banner-content-wrapper .banner-heading {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #2C334E;
+    font-size: 33px;
+    padding-bottom: 1.5rem;
+
+}
+
+.banner .main-banner-content-wrapper h1 .logo-y {
+    background: linear-gradient(93.34deg, #1DAFED -1.38%, #6663FF 128.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: transparent;
+}
+
+.banner .main-banner-content-wrapper h1 .logo-c {
+    font-weight: 500;
+}
+
+.banner .main-banner-content-wrapper p {
+    font-size: 14px;
+    font-family: Poppins;
+    color: rgba(118, 121, 135, 1);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding-bottom: 1.5rem;
+    left: 11rem;
+}
+
+
+
+.banner figure img {
+    width: 100%;
     /* background-image: url(../young-adult1.png) */
 }
-.banner .know-more{
-    border-radius: 30px;
+
+.banner .know-more {
+    border-radius: 26px;
     border: 2px solid rgba(84, 156, 245, 1);
-    width: 77px;
-    height: 30px;
+    width: 110px;
+    height: 40px;
     background: linear-gradient(94.48deg, #57C0F1 3.61%, #5278FA 53.64%);
     box-shadow: 0px 10px 12px 0px rgba(37, 170, 238, 0.3);
-
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 500;
+    cursor: pointer;
 }

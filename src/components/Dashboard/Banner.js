@@ -14,7 +14,7 @@ const Banner = () => {
                 <h1 className="banner-heading">
                     Cure your Medical Condition <br/>
                     with Food, Diet & Yoga with <br/>
-                    <span>YOGACures</span>
+                    <span className="logo-y">YOGA<span className="logo-c">Cures</span></span>
                 </h1>
                 <p>
                     At YogaCures, we believe that true healing comes from addressing the <br/> 

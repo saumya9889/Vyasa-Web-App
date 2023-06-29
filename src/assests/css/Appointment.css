@@ -1,0 +1,58 @@
+.appoint-wrap {
+    position: relative;
+}
+
+.appoint-container {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 9px 33px 0px rgba(72, 146, 243, 0.22);
+    width: 960px;
+    height: 173.642px;
+    position: absolute;
+    left: 20rem;
+    top: -5rem;
+    ;
+
+}
+
+.appoint-wrap .appoint-container .book-heading h1 {
+    color: #2C334E;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-right: 13rem;
+}
+
+.appoint-wrap .appoint-container .book-heading h1 span {
+    color: rgba(72, 146, 243, 1);
+}
+
+.appoint-wrap ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    height: fit-content;
+    /* margin:0px auto ; */
+}
+
+.appoint-wrap ul li {
+    color: #2C334E;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.appoint-container ul .active {
+    color: #55A0F5;
+    border-bottom: 4px solid #55A0F5;
+    ;
+}
+

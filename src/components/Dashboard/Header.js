@@ -29,12 +29,12 @@ const Header = () => {
                     <li><Link to="/videos"> videos </Link>
                     </li>
                     <li>
-                    <button>
+                    <button className="sign-up">
                         <Link to="/signup"> SignUp </Link>
                         </button>
                     </li>
                     <li>
-                    <button>
+                    <button className="log-in">
                         <Link to="/"> Login </Link>
                         </button>
                     </li>
